@@ -1,5 +1,5 @@
 {
-	"name": "expo-pda-scan-ble-print",
+	"name": "hicargo-pda-expo",
 	"main": "expo-router/entry",
 	"version": "1.0.0",
 	"scripts": {
