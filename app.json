@@ -1,23 +1,23 @@
 {
 	"expo": {
-		"name": "hicargo-pda-expo",
-		"slug": "hicargo-pda-expo",
+		"name": "expo-pda-scan-ble-print",
+		"slug": "expo-pda-scan-ble-print",
 		"version": "1.0.0",
 		"orientation": "portrait",
 		"icon": "./assets/images/icon.png",
-		"scheme": "hicargo-pda",
+		"scheme": "expo-pda-scan-ble-print",
 		"userInterfaceStyle": "automatic",
 		"newArchEnabled": true,
 		"ios": {
 			"supportsTablet": true,
-			"bundleIdentifier": "mn.hicargo.neo.pda"
+			"bundleIdentifier": "expo.pda.scan.ble.print"
 		},
 		"android": {
 			"adaptiveIcon": {
 				"foregroundImage": "./assets/images/adaptive-icon.png",
 				"backgroundColor": "#ffffff"
 			},
-			"package": "mn.hicargo.neo.pda"
+			"package": "expo.pda.scan.ble.print"
 		},
 		"web": {
 			"bundler": "metro",
@@ -50,17 +50,7 @@
 		"extra": {
 			"router": {
 				"origin": false
-			},
-			"eas": {
-				"projectId": "f414f9d3-fced-42b5-9d98-8473d61ec6dd"
 			}
-		},
-		"owner": "bamdaa",
-		"runtimeVersion": {
-			"policy": "appVersion"
-		},
-		"updates": {
-			"url": "https://u.expo.dev/f414f9d3-fced-42b5-9d98-8473d61ec6dd"
 		}
 	}
 }
