@@ -6,7 +6,7 @@ export default function HomeScreen() {
 
 	return (
 		<View style={styles.container}>
-			<Text style={styles.text}>Using DEV Client</Text>
+			<Text style={styles.text}>Press scan button</Text>
 			<Text style={styles.text}>Result: {scanActionData?.value}</Text>
 			<Text style={styles.text}>Type: {scanActionData?.type}</Text>
 			<Text style={styles.text}>Key: {scanActionData?.key}</Text>
