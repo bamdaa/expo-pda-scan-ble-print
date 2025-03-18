@@ -38,8 +38,8 @@ const useScanner = () => {
 			if (isOpened && Urovo) {
 				const eventEmitter =
 					Platform.OS === "android"
-						? new NativeEventEmitter()
-						: new NativeEventEmitter(Urovo)
+						? new NativeEventEmitter(Urovo)
+						: new NativeEventEmitter()
 
 				if (!eventListener)
 					eventListener = eventEmitter.addListener(
