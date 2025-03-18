@@ -1,11 +1,11 @@
 # Welcome 👋
 
-Urovo i6310 Handheld Mobile PDA Scanner
-HPRT HM-A300/HM-T300 Bluetooth Mobile Printer
-
 Working sample on Expo Managed Workflow.
 
-Used Packages
+1. Urovo i6310 Handheld Mobile PDA Scanner
+2. HPRT HM-A300/HM-T300 Bluetooth Mobile Printer
+
+# Used Packages
 
 ```
 npx expo install react-native-ble-plx // - for bluetooth Print
