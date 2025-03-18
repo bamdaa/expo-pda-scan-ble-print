@@ -8,8 +8,16 @@ Working sample on Expo Managed Workflow.
 # Used Packages
 
 ```
-npx expo install react-native-ble-plx // - for bluetooth Print
+npx expo install react-native-ble-plx
+// Bluetooth Print (using BLE)
 
-npm install react-native-urovo // - for Scan QR and Barcode.
-npm install expo-key-event // - for Scan key detect
+npm install react-native-urovo
+
+// Scan QR and Barcode.
+// https://github.com/iliapnmrv/react-native-urovo
+
+npm install expo-key-event
+
+// Scan key detect
+// https://github.com/tlow92/expo-key-event
 ```
